@@ -9,7 +9,7 @@ import type { Database } from "@/database.types";
 
 const DEBUG_SLOTS = true;
 
-type Block = "AB1" | "AB2" | "CB" | "MB" | "SMV";
+type Block = "AB1" | "AB2" | "CB" ;
 type SlotLabel = string;
 
 type ClassroomRow = Database["public"]["Tables"]["free_classrooms"]["Row"];
