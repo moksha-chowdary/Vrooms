@@ -15,7 +15,7 @@ type SlotLabel = string;
 type ClassroomRow = Database["public"]["Tables"]["free_classrooms"]["Row"];
 type ClassroomInsert = Database["public"]["Tables"]["free_classrooms"]["Insert"];
 
-const BLOCK_OPTIONS: Block[] = ["AB1", "AB2", "CB", "MB", "SMV"];
+const BLOCK_OPTIONS: Block[] = ["AB1", "AB2", "CB"];
 
 /**
  * Sample timetable mapping (Winter Semester) — UPDATED from your message.
